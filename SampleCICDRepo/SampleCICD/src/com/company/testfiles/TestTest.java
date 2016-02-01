@@ -13,7 +13,7 @@ public class TestTest  extends TestCase{
 	@Test
 	public void testMain() {
 		 Sample t = new Sample();
-		 t.testFunction(1);
+		  assertTrue(t.testFunction(1));
 	}
 
 }
